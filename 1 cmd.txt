@@ -1,0 +1,78 @@
+npm i create-react-native-app
+npx create-react-native-app MyReactNative
+npm install -g react-native-cli
+npm i -g eas-cli
+eas build:configure
+npm start
+or,
+npx expo start
+npx react-native start
+npx react-native run-android
+
+Or,
+npx react-native init AwesomeProject
+npx react-native start
+npx react-native run-android
+
+# Using a physical device
+adb devices
+npx react-native run-android
+
+#run emulator:
+npx expo run:android
+
+#run connected device:
+npx expo run:android -d
+
+#install Router
+npm i react-native-router-flux --save
+npm install react-native-screens
+npm install react-native-gesture-handler
+npm install react-native-reanimated
+npm install react-native-safe-area-context
+npm install @react-native-community/masked-view
+
+#picker
+npm install @react-native-picker/picker --save
+
+#navigation
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+expo install react-native-screens react-native-safe-area-context
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/bottom-tabs
+npm install react-native-tab-view
+npm install @react-navigation/material-top-tabs react-native-tab-view
+npm install react-native-pager-view
+npm install react-native-vector-icons
+
+#Drawer Navigator
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+
+#ProgressBar
+npm i react-native-progress-bar
+npm install @react-native-community/progress-bar-android --save
+npx pod-install
+npm i react-native link @react-native-community/progress-bar-android
+
+#ProgressView
+npm install @react-native-community/progress-view --save
+
+#Expo ProgressBar
+npm i expo-progress
+
+//npm install --save react-navigation
+//npm install --save react-native-gesture-handler
+//react-native link react-native-gesture-handler
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+npm install -g expo-cli
+npx create-expo-app my-app
+or, expo init my-app
+npx expo start
+
+#Build Android
+expo build:android
+
+npx expo install react-native-web@~0.18.7 react-dom@18.0.0
+
+# SQLite Database
+
+	npx expo install expo-sqlite
+	npx expo install expo-file-system expo-asset
+
+# metro.config.js
+	npx expo customize metro.config.js
+
+#include
+ 
+const { getDefaultConfig } = require('expo/metro-config');
+
+const defaultConfig = getDefaultConfig(__dirname);
+
+defaultConfig.resolver.assetExts.push('db');
+
+module.exports = defaultConfig;
+
+# cmd
+	expo build:web
+
+
+
